@@ -1,0 +1,14 @@
+# Dependency lock for reproducible runs.
+# No third-party MATLAB toolboxes and no package manager.
+# Runtime: base MATLAB, any release (File Exchange compatibility claim).
+# Native packing binary: 2DRBP.exe (Windows). C++ sources are not in this repo.
+#
+# Locked link-layer grid (from vehicleBinPackSimulation.m):
+DeltaT=0.16e-6
+DeltaB=25e3
+Ttot=1
+Btot=1e9
+lambda_S=0.001
+pLosThresh=0.5
+nVehicle=1,2,5,10,50
+numtrials=5
